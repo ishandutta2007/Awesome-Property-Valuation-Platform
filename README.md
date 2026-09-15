@@ -59,7 +59,7 @@ The table below lists leading commercial Automated Valuation Model (AVM) platfor
 
 Below is a curated list of top open-source repositories for **Automated Valuation Models (AVM)**, **Mass Appraisal**, **Spatial Regression**, and **Real Estate ML pipelines**, sorted in descending order by **GitHub Star Count**.
 
-| Repository | GitHub Stars | Description | Core Stack / Methods |
+| Repository | GitHub_Stars | Description | Core Stack / Methods |
 | :--- | :--- | :--- | :--- |
 | **[Cook County Assessor Residential AVM](https://github.com/ccao-data/model-res-avm)** | [![GitHub stars](https://img.shields.io/github/stars/ccao-data/model-res-avm?style=social&color=white)](https://github.com/ccao-data/model-res-avm/stargazers) | Open-source residential automated valuation model system developed by Cook County Assessor's Office for mass property tax assessment. | R, LightGBM, Spatial Features |
 | **[Cook County Assessor Condo AVM](https://github.com/ccao-data/model-condo-avm)** | [![GitHub stars](https://img.shields.io/github/stars/ccao-data/model-condo-avm?style=social&color=white)](https://github.com/ccao-data/model-condo-avm/stargazers) | Specialized open-source condominium Automated Valuation Model pipeline utilizing building characteristics and unit spatial modeling. | R, XGBoost, Condominium Hedonics |
