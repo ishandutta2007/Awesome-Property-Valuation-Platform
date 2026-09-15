@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Dark Tech Gradient Background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <!-- Vibrant Gradient Overlay for Text -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- Accent Line Gradient -->
+    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      fill: url(#titleGradient);
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #94A3B8;
+      letter-spacing: 0.2px;
+    }
+    .badge {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38BDF8;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .grid-line {
+      stroke: #1E293B;
+      stroke-width: 1;
+      stroke-dasharray: 4 4;
+    }
+    .chart-line {
+      stroke: #38BDF8;
+      stroke-width: 3;
+      fill: none;
+      filter: url(#softGlow);
+    }
+    .node-pulse {
+      animation: pulse 3s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { r: 5px; opacity: 0.7; }
+      100% { r: 9px; opacity: 1; }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -40; }
+    }
+    .flowing-line {
+      stroke-dasharray: 8 8;
+      animation: dash 2s linear infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="340" fill="url(#bgGradient)" rx="16"/>
+
+  <!-- Tech Grid Background -->
+  <g opacity="0.4">
+    <line x1="0" y1="60" x2="1200" y2="60" class="grid-line" />
+    <line x1="0" y1="120" x2="1200" y2="120" class="grid-line" />
+    <line x1="0" y1="180" x2="1200" y2="180" class="grid-line" />
+    <line x1="0" y1="240" x2="1200" y2="240" class="grid-line" />
+    <line x1="0" y1="300" x2="1200" y2="300" class="grid-line" />
+    <line x1="150" y1="0" x2="150" y2="340" class="grid-line" />
+    <line x1="350" y1="0" x2="350" y2="340" class="grid-line" />
+    <line x1="550" y1="0" x2="550" y2="340" class="grid-line" />
+    <line x1="750" y1="0" x2="750" y2="340" class="grid-line" />
+    <line x1="950" y1="0" x2="950" y2="340" class="grid-line" />
+    <line x1="1150" y1="0" x2="1150" y2="340" class="grid-line" />
+  </g>
+
+  <!-- Glowing Geometric Vector Art (Right Side - Property & AVM Visuals) -->
+  <g transform="translate(740, 40)">
+    <!-- House / Valuation Node Silhouette -->
+    <path d="M 220 70 L 320 150 L 320 250 L 120 250 L 120 150 Z" fill="none" stroke="#1E293B" stroke-width="2" />
+    <path d="M 220 50 L 340 146 L 100 146 Z" fill="none" stroke="#818CF8" stroke-width="2" opacity="0.6" />
+
+    <!-- Animated Data Flow Lines -->
+    <path d="M 30 220 Q 120 140 200 180 T 360 80" fill="none" stroke="#38BDF8" stroke-width="3" class="flowing-line" filter="url(#softGlow)" />
+    <path d="M 10 180 Q 100 240 220 120 T 380 140" fill="none" stroke="#C084FC" stroke-width="2" opacity="0.8" />
+
+    <!-- Neural Network / Valuation Nodes -->
+    <circle cx="200" cy="180" r="6" fill="#38BDF8" class="node-pulse" filter="url(#glow)"/>
+    <circle cx="120" cy="140" r="5" fill="#818CF8" />
+    <circle cx="360" cy="80" r="7" fill="#C084FC" filter="url(#glow)"/>
+    <circle cx="220" cy="120" r="4" fill="#38BDF8" />
+    <circle cx="300" cy="200" r="5" fill="#34D399" />
+
+    <!-- Dynamic Valuation Bar Graphs -->
+    <rect x="260" y="160" width="12" height="60" rx="3" fill="#38BDF8" opacity="0.7"/>
+    <rect x="280" y="130" width="12" height="90" rx="3" fill="#818CF8" opacity="0.8"/>
+    <rect x="300" y="90" width="12" height="130" rx="3" fill="url(#titleGradient)" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Left Content Block -->
+  <g transform="translate(70, 75)">
+    <!-- Category Badge -->
+    <rect x="0" y="0" width="250" height="28" rx="14" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5" opacity="0.9"/>
+    <text x="125" y="18" text-anchor="middle" class="badge">PROPERTY VALUATION &amp; AVM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" class="title" filter="url(#softGlow)">Awesome Property Valuation</text>
+    <text x="0" y="130" class="title" fill="#F8FAFC">&amp; AVM Platform Ecosystem</text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="175" class="subtitle">Automated Valuation Models • Mass Appraisal • Real Estate Analytics • Hedonic ML</text>
+
+    <!-- Decorative Bottom Accent Line -->
+    <rect x="0" y="205" width="580" height="3" fill="url(#lineGradient)" />
+  </g>
+</svg>

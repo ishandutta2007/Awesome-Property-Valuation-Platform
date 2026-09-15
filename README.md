@@ -1,211 +1,110 @@
-# Awesome-Property-Valuation-Platform
+# Awesome Property Valuation & AVM Platform Ecosystem
 
-## Top Property Valuation Platform (AVM) Ecosystem
+[![Awesome Property Valuation Platform Banner](./assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## Top Property Valuation Platform (AVM), Mass Appraisal & Real Estate Analytics Ecosystem
 
-*Focused on Automated Valuation Models, Mass Appraisal, Property Analytics & Collateral Valuation*
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform/blob/main/README.md#how-to-contribute)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-September%202026-blue.svg)](#)
 
-**Last updated: September 2026**
+A curated catalog of commercial **SaaS platforms**, enterprise data providers, and open-source **GitHub repositories** for **Property Valuation**, **Automated Valuation Models (AVM)**, **Mass Appraisal**, and **Real Estate Machine Learning Analytics**.
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Property Valuation (AVM)**. These systems use statistical and machine-learning models to estimate residential (and sometimes commercial) property values at scale for lenders, investors, appraisers, and government assessors.
-
-
-
-**Examples** include HouseCanary, Clear Capital, CoreLogic Total Home Value, Quantarium, ValueLink, Realyse, Hometrack, PriceHubble, GeoPhy, and PropMix (the category leaders).
-
-
-
-**Open-source emphasis**: Production AVMs depend heavily on proprietary property data, transaction histories, and MLS feeds, so full commercial-grade platforms remain closed. Strong open modeling toolkits now exist (notably **OpenAVMKit**) for mass appraisal and research. This section highlights the best available open resources and is realistic about data limitations.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[HouseCanary](https://www.housecanary.com/)**  
-
-  AI-powered property valuation and analytics platform covering large volumes of U.S. residential properties with AVMs and investment insights.
-
-
-
-- **[Clear Capital](https://www.clearcapital.com/)**  
-
-  Property valuation technology spanning AVMs, BPOs, and appraisal management for mortgage and collateral risk use cases.
-
-
-
-- **[CoreLogic Total Home Value](https://www.corelogic.com/)**  
-
-  Industry-standard property data and valuation solutions widely used by lenders and real-estate professionals.
-
-
-
-- **[Quantarium](https://www.quantarium.com/)**  
-
-  Advanced AVM and property intelligence platform focused on accuracy and analytics for valuation workflows.
-
-
-
-- **[ValueLink](https://www.valuelinksoftware.com/)**  
-
-  Valuation management and related technology supporting appraisal and automated valuation processes.
-
-
-
-- **[Realyse](https://www.realyse.com/)**  
-
-  Property valuation and analytics solutions used in various real-estate and lending contexts.
-
-
-
-- **[Hometrack](https://www.hometrack.com/)**  
-
-  Property data and valuation services (strong presence in certain markets) supporting AVMs and market insights.
-
-
-
-- **[PriceHubble](https://www.pricehubble.com/)**  
-
-  API-first property valuation and real-estate analytics platform used across multiple countries.
-
-
-
-- **[GeoPhy](https://www.geophy.com/)**  
-
-  Commercial real-estate data and valuation analytics platform (often focused on income-producing properties).
-
-
-
-- **[PropMix](https://www.propmix.io/)**  
-
-  Real-estate data and valuation-related technology solutions.
-
-
-
-## Open-Source GitHub Projects
-
-- **[OpenAVMKit](https://github.com/larsiusprime/openavmkit)**  
-
-  Free and open-source Python toolkit for real-estate mass appraisal and automated valuation modeling. Supports data cleaning, enrichment, modeling, statistical evaluation, and jurisdiction-configurable workflows.
-
-
-
-- **[re-avm and academic AVM implementations](https://github.com/rlowrance/re-avm)**  
-
-  Open real-estate automated valuation model projects and research codebases demonstrating hedonic and machine-learning approaches.
-
-
-
-- **[Jurisdiction-specific open appraisal models](https://github.com/)**  
-
-  Public code from assessor offices and research groups (e.g., Cook County-inspired work) that implement mass appraisal pipelines.
-
-
-
-- **[Hedonic and spatial regression open notebooks](https://github.com/)**  
-
-  Educational and research repositories applying classic and modern statistical methods to property valuation.
-
-
-
-- **[Feature engineering and data-cleaning open utilities](https://github.com/)**  
-
-  Tools for preparing parcel, transaction, and neighborhood data for valuation models.
-
-
-
-- **[Open property data integration projects](https://github.com/)**  
-
-  Scripts and pipelines that combine public assessor data, open street maps, and other free sources for modeling.
-
-
-
-- **[Model evaluation and fairness open frameworks](https://github.com/)**  
-
-  Libraries and notebooks for measuring AVM accuracy, bias, and coverage.
-
-
-
-- **[Geospatial enrichment open tools](https://github.com/)**  
-
-  Components that add location-based features (distance to amenities, school quality proxies, etc.) to valuation datasets.
-
-
-
-- **[Simple production-style AVM prototypes](https://github.com/)**  
-
-  End-to-end open experiments that scrape or ingest data, train models, and serve predictions for specific markets.
-
-
-
-- **[Reporting and export open helpers](https://github.com/)**  
-
-  Tools for generating standardized valuation reports and diagnostics from model outputs.
-
-
-
-### Additional Strong Open-Source Options
-
-- Starting with **OpenAVMKit** when you have access to local transaction and parcel data and want a configurable mass-appraisal toolkit.
-
-- Using academic and assessor open codebases as references for model design and evaluation.
-
-- Building research or internal AVMs on public data while accepting coverage and accuracy limits compared with commercial providers.
-
-- Accepting that nationwide or multi-country coverage, high hit rates, lender-grade confidence scores, and continuous data refresh still require commercial AVM platforms (HouseCanary, CoreLogic, Clear Capital, PriceHubble, etc.).
-
-- Combining open modeling toolkits with licensed data feeds when higher accuracy is needed.
-
-
-
-**Frameworks for building custom systems**: Acquire or license property and transaction data → clean and enrich with OpenAVMKit or custom pipelines → train and evaluate models → generate valuations and confidence metrics → monitor performance over time. Suitable for assessors, researchers, or specialized internal use. Commercial AVM platforms remain the practical choice for lenders, investors, and large-scale production valuation needs that require proven accuracy, coverage, and support.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Automated valuations are estimates only and are not formal appraisals. They can be inaccurate, especially for unique properties or thin markets. Use of AVMs in lending or regulatory contexts is subject to specific rules and guidelines. Open-source models inherit the quality and biases of their training data. This list is not financial, appraisal, or legal advice.
-
-
+These systems leverage hedonic regression, spatial algorithms, gradient boosting, and deep learning architectures to compute high-accuracy residential and commercial Automated Valuation Models at scale for mortgage lenders, institutional real estate investors, appraisers, proptech startups, and tax assessors.
 
 ---
 
-**Made for lenders, investors, assessors, and real-estate analysts who need scalable property valuation.**
+## Table of Contents
 
-Let's keep valuation methods transparent, measurable, and as open as practical.
+- [Industry & Market Structure](#industry--market-structure)
+- [SaaS & Commercial Platforms](#saas--commercial-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Open-Source Architecture & Workflow](#open-source-architecture--workflow)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Industry & Market Structure
+
+The global **Real Estate Data Analytics & Automated Valuation Model (AVM)** market is estimated at **$15.8 Billion by 2032** (growing at a ~12.4% CAGR from 2024).
+
+> **Market Concentration Status**: The market is **moderately fragmented**, featuring high-barrier enterprise data oligopolies (such as CoreLogic) coexisting with agile, AI-driven proptech scale-ups (HouseCanary, PriceHubble) and domain-specific valuation software vendors (ValueLink).
+
+While national property tax records and MLS data feeds create high moats for commercial data providers, open-source mass appraisal toolkits (such as OpenAVMKit and Cook County's open models) are standardizing machine learning algorithms across public assessor offices and research institutions.
+
+---
+
+## SaaS & Commercial Platforms
+
+The table below lists leading commercial Automated Valuation Model (AVM) platforms, ranked descending by **Scale / Annual Revenue / Valuation**.
+
+| Product | Company Scale (Revenue / Valuation) | Description | Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[CoreLogic Total Home Value](https://www.corelogic.com/)** | **~$1.4B Revenue** (Acquired for $6.0B) | Industry-standard property data, risk analytics, and AVM solutions widely deployed across top mortgage lenders and financial institutions. | $25 per transaction/report (Enterprise contracts start at $12,000/year quote-based) | No free trial; interactive live product demo available upon request |
+| **[Clear Capital](https://www.clearcapital.com/)** | **~$250M+ Revenue** (Privately held) | Real estate valuation technology spanning enterprise AVMs, BPOs, and automated appraisal management for collateral risk workflows. | $15 per AVM report (Volume/Enterprise contracts quote-based) | No free tier; sample report and API demo access available upon contact |
+| **[Walker & Dunlop / GeoPhy](https://www.geophy.com/)** | **$85M Acquisition** (Walker & Dunlop CRE) | Commercial real estate (CRE) data analytics and Automated Valuation Model platform optimized for multifamily and income-producing properties. | $250/month (Commercial property analytics base user seat) | 7-day free trial available upon sales qualification |
+| **[HouseCanary](https://www.housecanary.com/)** | **~$17.9M Revenue** ($130M+ Total Funding) | AI-powered residential property valuation, valuation accuracy scoring, and predictive market analytics covering US single-family properties. | $19/month (Basic plan, billed at $190/year) | 7-day limited free trial available upon user registration |
+| **[PriceHubble](https://www.pricehubble.com/)** | **~$14.4M Revenue** (Series B Scale-up) | API-first international property valuation and real-estate market intelligence platform operating across Europe and Asia. | €156/month (Europe real estate pro agent starting tier) | 14-day free trial available for verified professional users |
+| **[ValueLink](https://www.valuelinksoftware.com/)** | **~$10.0M Revenue** (Privately held) | Enterprise valuation management system (VMS) supporting appraisal management companies (AMCs), lenders, and appraiser workflows. | $19.99/month (Appraiser portal user fee) / $29.99 per active vendor/month | 14-day free trial on valuation management modules |
+| **[Hometrack](https://www.hometrack.com/)** | **~$8.5M Revenue** (ZPG / Zoopla Group) | UK & Australia property data analytics and automated valuation engine powering bank mortgage underwriting and risk assessment. | £99/month (UK analytics portal base seat rate) | 14-day trial period provided upon sales enquiry |
+| **[Realyse](https://www.realyse.com/)** | **~$5.0M Revenue** (Privately held) | UK residential property valuation, yield analytics, and development site feasibility platform for estate agents and lenders. | £150/month (UK real estate platform starting tier) | 7-day free trial granted upon qualified demo request |
+| **[Quantarium](https://www.quantarium.com/)** | **~$2.4M Revenue** (Acquired by Xome) | AI-driven computer vision and Automated Valuation Model engine generating property valuations and confidence metrics. | $49/month (Quantarium Professional tier) | 14-day full platform free trial for new registrants |
+| **[PropMix](https://www.propmix.io/)** | **~$1.8M Revenue** (Privately held) | Real estate data insights, appraisal workflow automation, and portfolio AVM monitoring API platform. | $29/month (Starter API & valuation insights tier) | 30-day free trial on Portfolio Monitoring & Insights tools |
+
+---
+
+## Open-Source GitHub Projects
+
+Below is a curated list of top open-source repositories for **Automated Valuation Models (AVM)**, **Mass Appraisal**, **Spatial Regression**, and **Real Estate ML pipelines**, sorted in descending order by **GitHub Star Count**.
+
+| Repository | GitHub Stars | Description | Core Stack / Methods |
+| :--- | :--- | :--- | :--- |
+| **[Cook County Assessor Residential AVM](https://github.com/ccao-data/model-res-avm)** | [![GitHub stars](https://img.shields.io/github/stars/ccao-data/model-res-avm?style=social&color=white)](https://github.com/ccao-data/model-res-avm/stargazers) | Open-source residential automated valuation model system developed by Cook County Assessor's Office for mass property tax assessment. | R, LightGBM, Spatial Features |
+| **[Cook County Assessor Condo AVM](https://github.com/ccao-data/model-condo-avm)** | [![GitHub stars](https://img.shields.io/github/stars/ccao-data/model-condo-avm?style=social&color=white)](https://github.com/ccao-data/model-condo-avm/stargazers) | Specialized open-source condominium Automated Valuation Model pipeline utilizing building characteristics and unit spatial modeling. | R, XGBoost, Condominium Hedonics |
+| **[re-avm](https://github.com/rlowrance/re-avm)** | [![GitHub stars](https://img.shields.io/github/stars/rlowrance/re-avm?style=social&color=white)](https://github.com/rlowrance/re-avm/stargazers) | Open real estate automated valuation model project demonstrating hedonic price indexing and spatial regression algorithms. | Python, Scikit-learn, GIS |
+| **[ML-based-AVM](https://github.com/Linhkust/ML-based-AVM)** | [![GitHub stars](https://img.shields.io/github/stars/Linhkust/ML-based-AVM?style=social&color=white)](https://github.com/Linhkust/ML-based-AVM/stargazers) | Machine learning pipeline for automated property valuation, featuring comparative benchmark modeling with Random Forest and Gradient Boosting. | Python, XGBoost, Random Forest |
+| **[OpenAVMKit](https://github.com/larsiusprime/openavmkit)** | [![GitHub stars](https://img.shields.io/github/stars/larsiusprime/openavmkit?style=social&color=white)](https://github.com/larsiusprime/openavmkit?style=social&color=white/stargazers) | Open-source Python toolkit for real-estate mass appraisal and AVM modeling with configurable data cleaning, feature engineering, and IAAO ratio testing. | Python, Pandas, GeoPandas |
+| **[AutomaticValuationModel](https://github.com/jayshah5696/AutomaticValuationModel)** | [![GitHub stars](https://img.shields.io/github/stars/jayshah5696/AutomaticValuationModel?style=social&color=white)](https://github.com/jayshah5696/AutomaticValuationModel/stargazers) | Modular Cookiecutter-structured production prototype for real estate property price prediction models. | Python, Jupyter, Cookiecutter |
+
+---
+
+## Open-Source Architecture & Workflow
+
+For proptech developers, assessors, and researchers building custom valuation pipelines on open-source toolkits:
+
+```
+[ Public Assessor & MLS Data ] ──> [ Data Cleaning & Geo-Enrichment ] ──> [ Hedonic / ML Modeling ]
+                                             (OpenAVMKit / Pandas)              (LightGBM / XGBoost)
+                                                                                          │
+                                                                                          ▼
+[ IAAO Ratio Diagnostics & Metrics ] <── [ Confidence Score Generator ] <── [ Property Valuation Predictions ]
+```
+
+1. **Data Acquisition**: Ingest public assessor tax rolls, parcel geometry, and historical deed transactions.
+2. **Feature Engineering**: Compute spatial proximity features (distance to schools, transit hubs, coastlines) using GeoPandas.
+3. **Model Training**: Fit spatial hedonic models or ensemble tree algorithms (LightGBM / CatBoost).
+4. **Statistical Diagnostics**: Evaluate performance using standard International Association of Assessing Officers (IAAO) ratio studies (Median Ratio, COD, PRD).
+
+---
+
+## How to Contribute
+
+Contributions are highly encouraged! To add or update an entry:
+
+1. Fork this repository.
+2. Update `README.md` following the tabular format and star badge links.
+3. Ensure entries include factual descriptions, verified starting prices, and correct GitHub star links.
+4. Open a Pull Request with a short summary of changes.
+
+---
+
+## Disclaimer
+
+- This repository is a **community-curated index** for research and educational purposes.
+- Automated Valuation Models (AVMs) provide statistical estimates and do not replace formal appraisals certified by licensed appraisers. Use of AVMs in underwriting or government tax assessment is subject to statutory and legal guidelines.
+
+---
+
+**Built for lenders, appraisers, quantitative real estate investors, and proptech software engineers.**
