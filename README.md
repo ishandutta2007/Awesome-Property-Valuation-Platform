@@ -1,13 +1,10 @@
-# Awesome Property Valuation & AVM Platform Ecosystem
+# 🏠 Awesome Property Valuation & AVM Platform Ecosystem
 
 [![Awesome Property Valuation Platform Banner](./assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform)
 
-## Top Property Valuation Platform (AVM), Mass Appraisal & Real Estate Analytics Ecosystem
+## 🚀 Top Property Valuation Platform (AVM), Mass Appraisal & Real Estate Analytics Ecosystem
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform/blob/main/README.md#how-to-contribute)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-September%202026-blue.svg)](#)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Property-Valuation-Platform/blob/main/README.md#how-to-contribute) [![Last Updated](https://img.shields.io/badge/Last%20Updated-September%202026-blue.svg)](#) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 A curated catalog of commercial **SaaS platforms**, enterprise data providers, and open-source **GitHub repositories** for **Property Valuation**, **Automated Valuation Models (AVM)**, **Mass Appraisal**, and **Real Estate Machine Learning Analytics**.
 
@@ -15,18 +12,19 @@ These systems leverage hedonic regression, spatial algorithms, gradient boosting
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 
-- [Industry & Market Structure](#industry--market-structure)
-- [SaaS & Commercial Platforms](#saas--commercial-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Open-Source Architecture & Workflow](#open-source-architecture--workflow)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+- [🏢 Industry & Market Structure](#-industry--market-structure)
+- [💼 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Open-Source Architecture & Workflow](#%EF%B8%8F-open-source-architecture--workflow)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
 ---
 
-## Industry & Market Structure
+## 🏢 Industry & Market Structure
 
 The global **Real Estate Data Analytics & Automated Valuation Model (AVM)** market is estimated at **$15.8 Billion by 2032** (growing at a ~12.4% CAGR from 2024).
 
@@ -36,7 +34,7 @@ While national property tax records and MLS data feeds create high moats for com
 
 ---
 
-## SaaS & Commercial Platforms
+## 💼 SaaS & Commercial Platforms
 
 The table below lists leading commercial Automated Valuation Model (AVM) platforms, ranked descending by **Scale / Annual Revenue / Valuation**.
 
@@ -55,22 +53,22 @@ The table below lists leading commercial Automated Valuation Model (AVM) platfor
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Below is a curated list of top open-source repositories for **Automated Valuation Models (AVM)**, **Mass Appraisal**, **Spatial Regression**, and **Real Estate ML pipelines**, sorted in descending order by **GitHub Star Count**.
 
 | Repository | GitHub_Stars | Description | Core Stack / Methods |
 | :--- | :--- | :--- | :--- |
-| **[Cook County Assessor Residential AVM](https://github.com/ccao-data/model-res-avm)** | [![GitHub stars](https://img.shields.io/github/stars/ccao-data/model-res-avm?style=social&color=white)](https://github.com/ccao-data/model-res-avm/stargazers) | Open-source residential automated valuation model system developed by Cook County Assessor's Office for mass property tax assessment. | R, LightGBM, Spatial Features |
-| **[Cook County Assessor Condo AVM](https://github.com/ccao-data/model-condo-avm)** | [![GitHub stars](https://img.shields.io/github/stars/ccao-data/model-condo-avm?style=social&color=white)](https://github.com/ccao-data/model-condo-avm/stargazers) | Specialized open-source condominium Automated Valuation Model pipeline utilizing building characteristics and unit spatial modeling. | R, XGBoost, Condominium Hedonics |
-| **[re-avm](https://github.com/rlowrance/re-avm)** | [![GitHub stars](https://img.shields.io/github/stars/rlowrance/re-avm?style=social&color=white)](https://github.com/rlowrance/re-avm/stargazers) | Open real estate automated valuation model project demonstrating hedonic price indexing and spatial regression algorithms. | Python, Scikit-learn, GIS |
-| **[ML-based-AVM](https://github.com/Linhkust/ML-based-AVM)** | [![GitHub stars](https://img.shields.io/github/stars/Linhkust/ML-based-AVM?style=social&color=white)](https://github.com/Linhkust/ML-based-AVM/stargazers) | Machine learning pipeline for automated property valuation, featuring comparative benchmark modeling with Random Forest and Gradient Boosting. | Python, XGBoost, Random Forest |
-| **[OpenAVMKit](https://github.com/larsiusprime/openavmkit)** | [![GitHub stars](https://img.shields.io/github/stars/larsiusprime/openavmkit?style=social&color=white)](https://github.com/larsiusprime/openavmkit?style=social&color=white/stargazers) | Open-source Python toolkit for real-estate mass appraisal and AVM modeling with configurable data cleaning, feature engineering, and IAAO ratio testing. | Python, Pandas, GeoPandas |
-| **[AutomaticValuationModel](https://github.com/jayshah5696/AutomaticValuationModel)** | [![GitHub stars](https://img.shields.io/github/stars/jayshah5696/AutomaticValuationModel?style=social&color=white)](https://github.com/jayshah5696/AutomaticValuationModel/stargazers) | Modular Cookiecutter-structured production prototype for real estate property price prediction models. | Python, Jupyter, Cookiecutter |
+| **[Cook County Assessor Residential AVM](https://github.com/ccao-data/model-res-avm)** | [![GitHub_Stars](https://img.shields.io/github/stars/ccao-data/model-res-avm?style=social&color=white)](https://github.com/ccao-data/model-res-avm/stargazers) | Open-source residential automated valuation model system developed by Cook County Assessor's Office for mass property tax assessment. | R, LightGBM, Spatial Features |
+| **[Cook County Assessor Condo AVM](https://github.com/ccao-data/model-condo-avm)** | [![GitHub_Stars](https://img.shields.io/github/stars/ccao-data/model-condo-avm?style=social&color=white)](https://github.com/ccao-data/model-condo-avm/stargazers) | Specialized open-source condominium Automated Valuation Model pipeline utilizing building characteristics and unit spatial modeling. | R, XGBoost, Condominium Hedonics |
+| **[re-avm](https://github.com/rlowrance/re-avm)** | [![GitHub_Stars](https://img.shields.io/github/stars/rlowrance/re-avm?style=social&color=white)](https://github.com/rlowrance/re-avm/stargazers) | Open real estate automated valuation model project demonstrating hedonic price indexing and spatial regression algorithms. | Python, Scikit-learn, GIS |
+| **[ML-based-AVM](https://github.com/Linhkust/ML-based-AVM)** | [![GitHub_Stars](https://img.shields.io/github/stars/Linhkust/ML-based-AVM?style=social&color=white)](https://github.com/Linhkust/ML-based-AVM/stargazers) | Machine learning pipeline for automated property valuation, featuring comparative benchmark modeling with Random Forest and Gradient Boosting. | Python, XGBoost, Random Forest |
+| **[OpenAVMKit](https://github.com/larsiusprime/openavmkit)** | [![GitHub_Stars](https://img.shields.io/github/stars/larsiusprime/openavmkit?style=social&color=white)](https://github.com/larsiusprime/openavmkit?style=social&color=white/stargazers) | Open-source Python toolkit for real-estate mass appraisal and AVM modeling with configurable data cleaning, feature engineering, and IAAO ratio testing. | Python, Pandas, GeoPandas |
+| **[AutomaticValuationModel](https://github.com/jayshah5696/AutomaticValuationModel)** | [![GitHub_Stars](https://img.shields.io/github/stars/jayshah5696/AutomaticValuationModel?style=social&color=white)](https://github.com/jayshah5696/AutomaticValuationModel/stargazers) | Modular Cookiecutter-structured production prototype for real estate property price prediction models. | Python, Jupyter, Cookiecutter |
 
 ---
 
-## Open-Source Architecture & Workflow
+## 🏗️ Open-Source Architecture & Workflow
 
 For proptech developers, assessors, and researchers building custom valuation pipelines on open-source toolkits:
 
@@ -89,21 +87,27 @@ For proptech developers, assessors, and researchers building custom valuation pi
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 Contributions are highly encouraged! To add or update an entry:
 
 1. Fork this repository.
-2. Update `README.md` following the tabular format and star badge links.
+2. Update `README.md` following the tabular format and Stars_Badge links.
 3. Ensure entries include factual descriptions, verified starting prices, and correct GitHub star links.
 4. Open a Pull Request with a short summary of changes.
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 - This repository is a **community-curated index** for research and educational purposes.
 - Automated Valuation Models (AVMs) provide statistical estimates and do not replace formal appraisals certified by licensed appraisers. Use of AVMs in underwriting or government tax assessment is subject to statutory and legal guidelines.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Property-Valuation-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Property-Valuation-Platform&type=date&legend=top-left)
 
 ---
 
